@@ -9,5 +9,5 @@
       <artifactId>selenium-java</artifactId>
       <version>4.32.0</version>
     </dependency>
-  </dependencies>>
+  </dependencies>
 </project>

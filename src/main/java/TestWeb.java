@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class TestWeb {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver-linux64/chromedriver");
 		ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");               // Run in headless mode
         options.addArguments("--no-sandbox");             // For Ubuntu
